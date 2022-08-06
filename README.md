@@ -1,5 +1,8 @@
 # NEPS
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+
 [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [PostgreSQL](https://www.postgresql.org/) Scaffolder for RESTful API servers.
 
 With heavily borrowed ideas from [node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate).
