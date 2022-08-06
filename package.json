@@ -23,6 +23,6 @@
   "standard": {
     "ignore": [
       "tmp.js"
-  ]
-}
+    ]
+  }
 }
