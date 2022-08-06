@@ -1,6 +1,7 @@
 # NEPS
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Linting rules](https://img.shields.io/badge/standard-rules-brightgreen)](https://standardjs.com)
+[![Code formatting](https://img.shields.io/badge/prettier-formatted-ff69b4)](https://github.com/prettier/prettier)
 
 
 [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [PostgreSQL](https://www.postgresql.org/) Scaffolder for RESTful API servers.
@@ -32,3 +33,8 @@ cp example.env .env
 Edit `.env` and configure accordingly to your project.
 
 
+## Features
+
+- [EditorConfig](http://editorconfig.org/) configuration
+- Code formatting with [Prettier](https://github.com/prettier/prettier)
+- [Standard](https://standardjs.com/) linted
