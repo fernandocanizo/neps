@@ -3,7 +3,6 @@
 [![Linting rules](https://img.shields.io/badge/standard-rules-brightgreen)](https://standardjs.com)
 [![Code formatting](https://img.shields.io/badge/prettier-formatted-ff69b4)](https://github.com/prettier/prettier)
 
-
 [Node.js](https://nodejs.org/), [Express](https://expressjs.com/), [PostgreSQL](https://www.postgresql.org/) Scaffolder for RESTful API servers.
 
 With heavily borrowed ideas from [node-express-boilerplate](https://github.com/hagopj13/node-express-boilerplate).
@@ -32,9 +31,10 @@ cp example.env .env
 
 Edit `.env` and configure accordingly to your project.
 
-
 ## Features
 
 - [EditorConfig](http://editorconfig.org/) configuration
 - Code formatting with [Prettier](https://github.com/prettier/prettier)
 - [Standard](https://standardjs.com/) linted
+- [Husky](https://github.com/typicode/husky) git hooks to run checkers when
+  needed
