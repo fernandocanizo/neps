@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo no tests specified yet",
     "lint": "standard",
-    "lint:fix": "standard --fix",
-    "format": "prettier-standard --format"
+    "lint:fix": "prettier-standard --staged --lint"
   },
   "keywords": [
     "scaffolder",
@@ -25,7 +24,7 @@
   },
   "standard": {
     "ignore": [
-      "tmp.js"
+      "pnpm-lock.yaml"
     ]
   }
 }
