@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo no tests specified yet",
-    "lint": "standard",
+    "lint": "prettier-standard --lint",
     "lint:fix": "prettier-standard --staged --lint"
   },
   "keywords": [
@@ -23,12 +23,6 @@
     "@tsconfig/recommended": "^1.0.2",
     "husky": "^8.0.3",
     "prettier-standard": "^16.4.1",
-    "standard": "^17.0.0",
     "typescript": "^4.9.5"
-  },
-  "standard": {
-    "ignore": [
-      "pnpm-lock.yaml"
-    ]
   }
 }
