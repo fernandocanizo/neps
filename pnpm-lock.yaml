@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@tsconfig/recommended': ^1.0.2
   express: ^4.18.2
   husky: ^8.0.3
   prettier-standard: ^16.4.1
@@ -11,6 +12,7 @@ dependencies:
   express: 4.18.2
 
 devDependencies:
+  '@tsconfig/recommended': 1.0.2
   husky: 8.0.3
   prettier-standard: 16.4.1_typescript@4.9.5
   standard: 17.0.0
@@ -245,6 +247,13 @@ packages:
       rxjs: 6.6.7
     transitivePeerDependencies:
       - zenObservable
+    dev: true
+
+  /@tsconfig/recommended/1.0.2:
+    resolution:
+      {
+        integrity: sha512-dbHBtbWBOjq0/otpopAE02NT2Cm05Qe2JsEKeCf/wjSYbI2hz8nCqnpnOJWHATgjDz4fd3dchs3Wy1gQGjfN6w==,
+      }
     dev: true
 
   /@types/glob/7.2.0:
