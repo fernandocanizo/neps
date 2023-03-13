@@ -11,7 +11,8 @@
     "start": "node build/server.js",
     "test": "echo no tests specified yet",
     "lint": "prettier-standard --lint",
-    "lint:fix": "prettier-standard --staged --lint"
+    "lint:fix": "prettier-standard --staged --lint",
+    "migrate": "postgrator -c postgrator-config.mjs"
   },
   "keywords": [
     "scaffolder",
