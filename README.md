@@ -43,11 +43,11 @@ exit
 
 ### Configure and set up database
 
-Configure database connection settings by editing `.postgratorrc.json`
+Configure database connection settings by editing `postgrator-config.mjs`
 accordingly, then run:
 
 ```bash
-npx postgrator
+npx postgrator -c postgrator-config.mjs
 ```
 
 That will create basic tables. Of course you can add more migrations before

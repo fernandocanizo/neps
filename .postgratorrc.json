@@ -1,9 +1,0 @@
-{
-  "migrationPattern": "src/migrations/*",
-  "driver": "pg",
-  "host": "127.0.0.1",
-  "port": 5432,
-  "database": "neps",
-  "username": "neps",
-  "password": "neps"
-}
