@@ -12,6 +12,7 @@ specifiers:
   morgan: ^1.10.0
   pg: ^8.10.0
   postgrator-cli: ^6.0.1
+  postgres: ^3.3.4
   prettier-standard: ^16.4.1
   typescript: ^4.9.5
 
@@ -23,6 +24,7 @@ dependencies:
   express: 4.18.2
   morgan: 1.10.0
   pg: 8.10.0
+  postgres: 3.3.4
 
 devDependencies:
   '@tsconfig/recommended': 1.0.2
@@ -2390,6 +2392,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       xtend: 4.0.2
+
+  /postgres/3.3.4:
+    resolution: {integrity: sha512-XVu0+d/Y56pl2lSaf0c7V19AhAEfpVrhID1IENWN8nf0xch6hFq6dAov5dtUX6ZD46wfr1TxvLhxLtV8WnNsOg==}
+    dev: false
 
   /prelude-ls/1.1.2:
     resolution: {integrity: sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==}
