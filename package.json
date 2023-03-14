@@ -8,7 +8,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "node build/server.js",
+    "start": "chmod 700 build/config && chmod 600 build/config/index.js && node build/server.js",
     "test": "echo no tests specified yet",
     "lint": "prettier-standard --lint",
     "lint:fix": "prettier-standard --staged --lint",
