@@ -1,4 +1,4 @@
-# NEPS
+# NEPS - WARNING: this is ALPHA software
 
 [![Linting rules](https://img.shields.io/badge/standard-rules-brightgreen)](https://standardjs.com)
 [![Code formatting](https://img.shields.io/badge/prettier-formatted-ff69b4)](https://github.com/prettier/prettier)
@@ -43,15 +43,20 @@ exit
 
 ### Configure and set up database
 
-Configure database connection settings by editing `postgrator-config.mjs`
-accordingly, then run:
+Edit `build/config/index.js` appropriately with database connections details
+and `chmod 700 build/config` and `chmod 600 build/config/index.js` to improve
+security.
+
+Migrate database with:
 
 ```bash
-npx postgrator -c postgrator-config.mjs
+npm run migrate
 ```
 
-That will create basic tables. Of course you can add more migrations before
-running `postgrator`.
+**Note:** I prefer **forward-only** migrations, since experience has showed me
+that you cannot do a realiable rollback in production. However sometimes
+rollbacks are useful in development, so if you want, `postgrator` allows them,
+so they can be used.
 
 ## Features
 
