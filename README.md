@@ -67,3 +67,4 @@ so they can be used.
   needed
 - [Postgrator-cli](https://github.com/MattiLehtinen/postgrator-cli) for
   database migrations
+- [DotEnv](https://github.com/motdotla/dotenv) configuration
