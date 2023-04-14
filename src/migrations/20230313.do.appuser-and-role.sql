@@ -2,12 +2,13 @@ create extension pgcrypto;
 
 create table if not exists role (
 	id serial primary key,
-	role varchar(20) not null
+	name varchar(20) not null unique
 );
 
-insert into role (role) values (
-	'user'
-);
+insert into role (name) values
+	('user'),
+	('admin')
+;
 
 create table if not exists appuser (
 	id serial primary key,
@@ -15,6 +16,10 @@ create table if not exists appuser (
 	last_name varchar(255),
 	email text not null unique,
 	password text not null,
-	fk_role varchar(20) not null default 'user'
+	fk_role varchar(20) not null default 'user',
+
+	foreign key (fk_role) references role(name)
+		on delete restrict
+		on update cascade
 );
 
